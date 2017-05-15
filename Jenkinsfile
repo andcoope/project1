@@ -1,1 +1,4 @@
 
+stage("build") {
+  mvn compile
+}

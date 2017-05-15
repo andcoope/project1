@@ -1,4 +1,4 @@
 
 stage("build") {
-  mvn compile
+  sh "mvn compile"
 }

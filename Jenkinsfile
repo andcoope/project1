@@ -1,4 +1,5 @@
-
-stage("build") {
-  sh "mvn compile"
+node {
+  stage('build') {
+    echo "mvn compile"
+  }
 }
